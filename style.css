@@ -1,0 +1,245 @@
+body{
+    background: #e8e8e8;
+}
+
+.logo{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    width: 8%;
+    height: 5%;
+}
+
+.escribir-texto-encriptar{
+    position: absolute;
+    top: 16%;
+    left: 17%;
+    width: 40%;
+    height: 5%;
+    background: #e8e8e8;
+    border: none;
+    overflow: hidden;
+    font-size: 215%;
+    color: darkblue;
+    resize: none;
+}
+
+.escribir-texto-encriptar::placeholder{
+    color: darkblue;
+    text-align: left;
+}
+
+
+.contenedor-texto-encriptado{
+    position: absolute;
+    top: 4%;
+    left: 70%;
+    width: 29%;
+    height: 95%;;
+}
+
+.texto-encriptado{
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    top: 0%;
+    left: 0%;
+    width: 85%;
+    height: 88%;
+    border-radius: 32px;
+    padding: 1em;
+}
+
+#copiar{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 80%;
+    height: 7%;
+    border-radius: 24px; 
+    display: none;
+} 
+
+.contenedor-elementos-textarea{
+    position: absolute;
+    top: 20%;
+    left: 72%;
+    height: 41%;
+    width: 23%;   
+}
+
+.primer-placeholder-textarea{
+    left: 0%;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.segundo-placeholder-textarea{
+    font-size: 1sem;
+    text-align: center;
+}
+
+.instruccion{
+    position: absolute;
+    top: 82%;
+    left: 18%;
+    color: gray;
+}
+
+.contenedor-encriptador{
+    position: absolute;
+    border-radius: 24px;
+    top: 86%;
+    left: 17%;   
+    width: 47%;
+    height: 7%;
+}
+
+.encriptador, .desencriptador{
+    width: 48%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: darkblue;
+}
+
+.encriptador{
+    background-color: darkblue;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    top: 95%;
+}
+
+.datos-personales {
+    border-top: 2px solid #333; /* Borde superior */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1); /* Sombra en la parte inferior */
+    padding: 5px; /* Agrega espacio alrededor del contenido del footer */
+  }
+
+@media screen and (max-width:1100px) {
+    
+    .escribir-texto-encriptar{
+        position: absolute;
+        left: 7%;
+    }
+
+    .contenedor-texto-encriptado{
+        position: absolute;
+        top: 83%;
+        left: 5%;
+        width: 90%;
+        height: 11%;
+    }
+
+    .texto-encriptado{
+        top: 0%;
+        left: 3%;
+        height: 60%;
+        width: 90%;
+    }
+
+    #copiar{
+        top: 60%;
+        left: 6%;
+        width: 90%;
+        height: 30%;
+        display: none;
+    }
+
+    .contenedor-elementos-textarea{
+        height: 6%;
+        width: 81%;
+        top: 85.5%;
+        left: 10%;
+        font-size: larger;
+    
+    }
+
+    .instruccion{
+        top: 72%;
+    }
+
+    .contenedor-encriptador{
+        position: absolute;
+        top: 74%;
+        left: 4%;
+        width: 90%;
+        height: 6%;
+    }
+
+    .muneco{
+        display: none;
+    }
+
+    footer{
+        top: 100%;
+    }
+}
+
+@media screen and (max-width:431px) {
+    .logo{
+        position: absolute;
+        top: 2%;
+        left: -5%;
+    }
+
+    .escribir-texto-encriptar{
+        position: absolute;
+        width: 91%;
+        height: 5%;
+    }
+
+    .contenedor-texto-encriptado{
+        top: 76%;
+        left: 6%;
+        width: 87%;
+        height: 20%;
+
+    }
+
+    .texto-encriptado{
+        top: 0%;
+        left: 0%;
+        width: 85%;
+        height: 70%;
+
+    }
+
+
+    .contenedor-elementos-textarea{
+        top: 80%;
+        font-size: small;
+    }
+
+    .instruccion{
+        position: absolute;
+        top: 48%;
+        left: 4%;
+    }
+
+    .contenedor-encriptador{
+        position: absolute;
+        top: 52%;
+        left: 4%;
+        width: 91%;
+        height: 17%;
+    }
+
+    .encriptador, .desencriptador{
+        width: 100%;
+        height: 42%;
+        margin-bottom: 2em;
+    }
+
+    footer{
+        top: 100%;
+        font-size: smaller;
+    }
+}
